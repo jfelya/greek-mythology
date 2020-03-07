@@ -1,0 +1,136 @@
+[class*="col-"] {
+
+	width: 100%;
+
+}
+
+html {
+
+	scroll-behavior: smooth;
+
+}
+
+.container-fluid {
+
+	width: 90%;
+	padding: 12px 24px;
+	margin: auto;
+	display: block;
+	background: rgba(245, 238, 223, 0.8);
+	border-radius: 24px;
+
+}
+
+h1, h2, h3, h4, h5 {
+
+	font-size: 30px;
+	color: #444;
+
+}
+
+body {
+
+	color: #444;
+	background: url("background3.jpg");
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	font-size: 14px;
+	font-family: Century Gothic;
+	text-align: center;
+
+}
+
+p {
+
+	text-align: justify;
+}
+
+footer {
+
+	background-color: rgba(236, 233, 200, 0.9);;
+	color: #444;
+	padding: 12px 24px;
+	font-size: 10px;
+	font-family: arial;
+
+}
+
+#medium-footer {
+
+	text-align: left;
+	font-family: Times New Roman;
+
+}
+
+a + p {
+
+	margin: 12px 0px;
+
+}
+
+.column blockquote {
+
+	padding: 12px;
+	border-radius: 10px;
+	color: #556;
+	background-color: #DF7861;
+	transition: all 0.4s ease-out;
+
+}
+
+.column blockquote:hover {
+
+	background-color: #ECB390;
+	transition: all 0.2s ease-out;
+	cursor: pointer;
+
+}
+
+/*Nav bar from here*/
+
+.navbar {
+
+	/*background: linear-gradient(to bottom right, #1F2F2F ,#2A1F2F);*/
+	font-weight: bold;
+	box-shadow: 3px 6px 9px rgba(0,0,0,0.5);
+	text-align: left;
+
+}
+
+/*Only animations and styles from here*/
+
+.navbar li a {
+	text-decoration: none;
+	color: #CCDCDD;
+	transition: all 0.4s ease-out;
+}
+
+.navbar li a:hover {
+
+	color: #DDE;
+	cursor: pointer;
+	transition: all 0.2s ease-out;
+
+}
+
+/*MEDIA FOR DESKTOP*/
+
+@media only screen and (min-width: 768px) {
+
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+	
+}
